@@ -4,6 +4,7 @@ import statistics as stat
 import numpy as np
 import csv
 
+paper = r"https://ieeexplore.ieee.org/document/9430501"
 
 actions = ["walk", "run", "jump", "sit"]
 features = ["Accelerometer", "Gyroscope"] # GravitySensor, LinearAccelerationSensor
